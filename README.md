@@ -57,7 +57,7 @@ This project analyzes Data Analyst job vacancies in Singapore over a span of **6
 
 ## 📘 SQL Highlights
 
-''''
+```
 -- Skill Frequency Count
 WITH RECURSIVE split_skills AS (
     SELECT `COMPANY NAME`, `EXPERIENCE`,
@@ -75,7 +75,7 @@ SELECT TRIM(skill) AS SKILL, COUNT(*) AS COUNT
 FROM split_skills
 GROUP BY TRIM(skill)
 ORDER BY COUNT DESC;
-''''
+```
 ---
 
 ## 📊 Visual Dashboards
