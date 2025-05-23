@@ -3,6 +3,8 @@
 This project analyzes Data Analyst job vacancies in Singapore over a span of **6 weeks**. The goal is to extract actionable insights about the job market using Excel dashboards, SQL queries, and Tableau visualizations.
 
 ---
+![Tableau Dashboard](images/dash.png)
+---
 
 ## 🧠 Objective
 
