@@ -57,8 +57,8 @@ This project analyzes Data Analyst job vacancies in Singapore over a span of **6
 
 ## 📘 SQL Highlights
 
-```
 -- Skill Frequency Count
+```
 WITH RECURSIVE split_skills AS (
     SELECT `COMPANY NAME`, `EXPERIENCE`,
            SUBSTRING_INDEX(`SKILLS`, ',', 1) AS skill,
